@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4677f7;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  position: absolute;
+}
+
+.box {
+  width: 360px;
+  height: auto;
+  background-color: #fff;
+  margin-top: 35px;
+  padding: 20px;
+  position: relative;
+}
+
+.box__menyu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.box__menyu p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #222;
+}
+
+.box__maps {
+  width: 360px;
+  height: 100px;
+  padding: 15px;
+  margin-left: -20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 119, 247, 0.6)), to(rgba(70, 119, 247, 0.6))), url(./img/map.png);
+  background: linear-gradient(rgba(70, 119, 247, 0.6), rgba(70, 119, 247, 0.6)), url(./img/map.png);
+  background-position: center;
+  border-radius: 5px;
+  border: 1px solid #4677f7;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box__maps:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.hamburg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hamburg img {
+  width: 45px;
+  color: black;
+}
+
+.hamburg p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #4677f7;
+  border-radius: 5px;
+  margin-left: 60%;
+  margin-top: 2%;
+  position: absolute;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+.button {
+  padding: 5px 10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#text {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #4677f7;
+}
+
+.box__content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.content__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content__p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #656565;
+}
+
+.content__p2 {
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+.img {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  background: url(./img/streetview.jpg);
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #4677f7;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+}
+/*# sourceMappingURL=style.css.map */
